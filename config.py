@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "d4a098f8db40914ca13293772b7e373a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002395110102"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7179562225"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "827932553"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -53,7 +53,7 @@ ABOUT_TXT = "<b>✯ Creator : <a href='https://t.me/TitanContactBot'>This Person
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7179562225").split()):
+    for x in (os.environ.get("ADMINS", "827932553").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -77,7 +77,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "👋Hey Friend, 🚫Don't send any messages to me directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5356695781)
+ADMINS.append(827932553)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
