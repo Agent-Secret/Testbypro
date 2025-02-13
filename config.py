@@ -34,7 +34,7 @@ FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "45")) # auto delete i
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Test:Test@test.jos7o.mongodb.net/?retryWrites=true&w=majority&appName=Test")
-DB_NAME = os.environ.get("DATABASE_NAME", "Test") # Don't Change Database Name
+DB_NAME = os.environ.get("DATABASE_NAME", "Titanxbot") # Don't Change Database Name
 
 #force sub channel id, if you want to enable force sub (Use different ForceSub Channel ID)
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002332391682"))
